@@ -13,10 +13,6 @@ if (!isNaN(n)) {
 
 
 const a = 10;
-let b = '';
-
-for (let i = 0; i < 2; i++) {
-    b = '*'.repeat(a / 2);
-}
+const b = '*'.repeat(a / 2);
 
 console.log(`${b}\n${b}`);
