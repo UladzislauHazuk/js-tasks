@@ -9,10 +9,3 @@ if (!isNaN(n)) {
 } else {
     console.log('Ошибка ввода');
 }
-
-
-
-const a = 10;
-const b = '*'.repeat(a / 2);
-
-console.log(`${b}\n${b}`);
