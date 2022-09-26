@@ -2,17 +2,17 @@
 // “rkqodlw”, “world” –> true (rkqodlw содержит world)
 // “katas”, “steak” –> false (katas не включает steak после перестановки символов)
 
-// const str = 'rkqodlw';
-// const str2 = 'world';
+const str = 'rkqodlw';
+const str2 = 'world';
 
-// function checkWord(symbols, word) {
-//     let count = 0;
+function checkWord(symbols, word) {
+    let count = 0;
 
-//     for (let i = 0; i < word.length; i++) {
-//         if (symbols.includes(word[i])) count++;
-//     }
+    for (let i = 0; i < word.length; i++) {
+        if (symbols.includes(word[i])) count++;
+    }
 
-//     return (word.length === count) ? true : false;
-// }
+    return (word.length === count) ? true : false;
+}
 
-// console.log(checkWord(str, str2));
+console.log(checkWord(str, str2));
